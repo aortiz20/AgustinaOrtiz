@@ -1,3 +1,167 @@
+* {
+  margin: 0;
+  padding: 0; }
+  * html {
+    font-size: 62,5%; }
+  * p {
+    color: black;
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-size: 1rem;
+    text-align: justify; }
+
+nav {
+  background-color: #8fc9ca;
+  height: auto;
+  margin: 0px 0px 40px 0px; }
+
+#redes {
+  background-color: #8fc9ca; }
+
+#contacto {
+  background-color: #cce2cb; }
+
+#container2 {
+  background-color: #cce2cb;
+  padding: 3rem 2rem 3rem 2rem;
+  margin: 8rem 0rem 8rem 0rem; }
+
+.carouselEstilo {
+  margin: 2rem 0rem 5rem 0rem; }
+
+.contacto {
+  margin: 5rem 2rem 5rem 2rem; }
+
+footer {
+  background-color: #8fc9ca;
+  height: 5rem; }
+  footer a {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-decoration: none; }
+
+.publicidad {
+  background-color: lavender;
+  width: auto;
+  height: 20rem;
+  margin: 0rem 0rem 3rem 3rem; }
+
+.redes {
+  background-color: #cce2cb;
+  width: auto;
+  height: 40rem;
+  margin: 0rem 0rem 3rem 3rem; }
+
+.btn-- {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  height: 30px;
+  width: auto;
+  padding: 4rem 0px 4rem 0px;
+  margin: 20px 25px 20px 30px;
+  transition: background-color 2s; }
+
+.btn--:hover {
+  background-color: #069992; }
+
+.mgServicios {
+  margin: 2rem 2rem 2rem 2rem; }
+
+.img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.shop {
+  display: flex;
+  justify-content: space-around;
+  margin: 0rem 2rem 5rem 2rem;
+  flex-wrap: wrap; }
+
+h1 {
+  color: #069992;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  font-weight: 800;
+  font-size: 2rem;
+  padding: 20px 0px 20px 0px; }
+
+h2 {
+  color: #069992;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1%; }
+
+h3 {
+  color: #069992;
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  font-size: 1rem; }
+
+.responsive {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.modalResponsive {
+  display: flex;
+  align-content: space-around; }
+
+.btn-flex {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center; }
+
+@media only screen and (min-width: 320px) {
+  .publicidad {
+    display: none; }
+  .redes {
+    display: none; }
+  .responsive {
+    display: block; }
+  .modalResponsive {
+    display: none; }
+  #shopResponsive {
+    display: block; } }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .publicidad {
+    display: none; }
+  .redes {
+    display: none; }
+  .responsive {
+    display: block; }
+  .modalResponsive {
+    display: block; }
+  #shopResponsive {
+    display: none; } }
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+  .publicidad {
+    display: block; }
+  .redes {
+    display: block; }
+  .modalResponsive {
+    display: block; }
+  #shopResponsive {
+    display: none; } }
+
+@media (min-device-width: 1366px) {
+  .publicidad {
+    display: block; }
+  .redes {
+    display: block; }
+  .modalResponsive {
+    display: block; }
+  #shopResponsive {
+    display: none; } }
+
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
